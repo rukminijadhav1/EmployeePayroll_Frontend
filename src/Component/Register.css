@@ -1,0 +1,102 @@
+.page{
+    display: flex;
+    display: inline-block;
+}
+.Registerstyle{
+  height: 900px;
+    background-color: gainsboro;
+
+}
+.form{
+display: flex;
+display: inline-block;
+flex-direction: column;
+margin-left: 300px;
+margin-top: 20px;
+border-style: solid;
+border-color: rgb(249, 248, 248);
+padding-left: 40px;
+padding-right: 10px;
+padding-bottom: 30px;
+padding-top: 10px;
+background-color: white;
+font-size: 0.9rem;
+}
+.row-content{
+  margin-bottom: 4%;
+  margin-left: 12%;
+  width: 290px;
+  background-color: greye;
+}
+.profile-image{
+    margin: 2%;
+}
+.radiobutton{
+    margin-left: 11.1%;
+}
+.radiobutton.f{
+    margin-left: 5%;
+}
+.department{
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.salary{
+    margin-bottom: 4%;
+    margin-left: 13%;
+    width: 183px;
+    height: 30px;
+}
+.start-date{
+    margin-left: 29%;
+    margin: 3%;
+    width: 83px;
+    height:28px;
+}
+.Cancel{
+    margin-left: 12px;
+    color: greye;
+    width: 63px;
+    height: 13px;
+    padding: 5px;
+}
+.submit{
+    margin-left: 25%;
+   color: greye;
+   width: 83px;
+   height: 23px;
+}
+.Reset{
+    margin: 4%;
+    color:  greye;
+    width: 83px;
+    height: 23px;
+}
+
+.header{
+    padding-top: 1cm;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    height: 30px;
+    
+}
+.img1,.img2,.img3,.img4{
+    height: 5%;
+    width: 5%;
+    
+
+}
+.note{
+    margin-left: 8%;
+    height: 50px;
+    width:250px
+
+}
+
+
+
+
+
+
+

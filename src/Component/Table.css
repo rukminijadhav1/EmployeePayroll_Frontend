@@ -1,0 +1,114 @@
+.main-containt{
+     display: flex;
+    flex-direction: column;
+    background-color: #f4f6f3;
+    padding: 30px 0 10px;
+    box-sizing: border-box;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 5px;
+    
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    color: white;
+   
+}
+.emp-detail-text{
+
+    font-weight: 900;
+    color:darkslategrey;
+    text-shadow: 1px 2px 1px #fff;
+    font-family: sans-serif;
+    opacity: 1;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  
+}
+.header {
+    padding: 15px 0;
+    background-color: #fff;
+}
+.table-wrapper{
+    margin: 50px 90px 90px;
+  
+}
+.table1{
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: rgb(242, 235, 235);
+}
+.thead,.tbody{
+    width: 100%;
+    text-align: center;
+}
+
+.th1,.th2,.th3,.th4,.th5,.th6,.th7{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: slategray;
+    font-family: sans-serif;
+    padding-bottom: 200px;
+    margin-top: 50px;
+    
+    
+}
+.th1,.th2,.th3,.th4,.th5,.th6,.th7,.td1,.td2,.td3,.td4,.td5,.td6{
+    padding: 10px;
+    border: 0.5px solid #f4f0f0;
+   
+}
+.td1,.td2,.td3,.td4,.td5,.td6{
+    padding-top: 7pxpx;
+    padding-bottom: 7pxpx;
+}
+.searchbox{
+    flex-basis: 20%;
+    height: 40%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 1cm;
+    margin-left: 15px;
+  
+}
+.button{
+ 
+    margin-right: 65px;
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-bottom: 5px;
+    color: white;
+    font-size: medium;
+    background-color: yellowgreen;
+}
+#myInput {
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 5px;
+    background-repeat: no-repeat;
+    font-size: 10px;
+    padding: 12px 20px 10px 12px;
+    border: 1px solid #ddd;
+    margin-left: 700px;
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  .searchbox,.button,#myInput{
+    margin-top:10px;
+  }
